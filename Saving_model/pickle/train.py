@@ -28,3 +28,4 @@ print(result)
 
 filename="diabetes_79.pkl"
 pickle.dump(model, open(filename,'wb'))
+# Either joblib or pickle method can be used
